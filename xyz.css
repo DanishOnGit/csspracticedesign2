@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 *{
     margin: 0;
     padding: 0;
-    --primary-color:rgb(255, 255, 214);
+    --primary-color:rgb(245, 245, 240);
     
 }
 body{
@@ -25,7 +26,7 @@ body{
     width: 50%;
     padding: 1.2rem ;
     letter-spacing: -3px;
-    color: rgb(255, 255, 214);
+    color: var(--primary-color);
     /* background-color: lightyellow; */
     font-size: 4.5rem;
     line-height: 5.5rem;
@@ -33,7 +34,7 @@ body{
     
 }
 h2{
-    font-weight: 400;
+    font-weight:100;
 }
 .leftDiv{
     /* background-color: rgba(255, 255, 224, 0.144); */
@@ -44,6 +45,7 @@ h2{
     font-size: 0.8rem;
     padding: 1rem 2rem 1rem 1rem;
     color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
     
 }
 .coh{
@@ -52,8 +54,8 @@ h2{
 }
 .loremdiv{
     width: 50%;
-    font-size: .8rem;
-    line-height: 1.1;
+    font-size: .68rem;
+    line-height: 1.5;
     padding-left: 4rem;
     /* background-color: rgba(147, 112, 216, 0.336); */
 }
@@ -75,6 +77,7 @@ h2{
     justify-content: space-between;
     margin-top: 2rem;
     font-size: 0.5rem;
+    font-family: 'Roboto', sans-serif;
     color: var(--primary-color);
 }
 .contentwrapleft{
@@ -94,13 +97,13 @@ h2{
     /* width: 50%; */
     box-sizing: border-box;
     
-    
 }
 .year{
    text-align: center;
    /* background-color: rgba(255, 255, 0, 0.281); */
   margin-left: -6.5rem;
   font-size: 0.6rem;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 1.5rem;
   color: var(--primary-color);
 }
@@ -118,6 +121,7 @@ img{
     /* background-color: rgba(128, 0, 0, 0.377); */
     justify-content: space-between;
     font-size: 0.5rem;
+    font-family: 'Roboto', sans-serif;
     margin-top: 1rem;
     padding:0.5rem 1rem;
     border-top:1px solid grey;
