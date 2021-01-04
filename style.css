@@ -17,6 +17,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
+    position: relative;
 }
 .heading{
     width: 50%;
@@ -61,10 +62,17 @@ h2{
     padding-left: 3rem;
     background-color: rgba(186, 85, 211, 0.411);
 }
+
 /* leftbottomdiv style */
-.leftBottomFooter{
+.leftFooter{
+    position: absolute;
+    bottom: 0;
+    padding:1rem 1.1rem;
     display: flex;
     width: 44.5%;
+    justify-content: space-between;
     margin-top: 2rem;
+    font-size: 0.5rem;
+    color: var(--primary-color);
 }
 
